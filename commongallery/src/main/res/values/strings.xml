@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CommonGallery</string>
+    <string name="com_err_data_invalid">数据错误</string>
+    <string name="transition_view_name">transition_id</string>
+    <string name="image_load_fail">图片加载失败！</string>
+    <string name="bu_lookorigin_pic_txt">查看原图</string>
+    <string name="bu_lookorigin_pic_txt2">查看原图(%s)</string>
+</resources>

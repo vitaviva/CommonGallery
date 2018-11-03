@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.vitaviva.commongallery.widget.ImageBoothView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/tv_download_original"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/btn_download_original"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="查看原图"
+        android:textColor="@android:color/white"
+        android:textSize="12dp"
+        android:visibility="gone"
+        tools:visibility="visible" />
+    <!--<com.sunfusheng.LoadingView-->
+    <!--android:id="@+id/loadingView"-->
+    <!--android:visibility="gone"-->
+    <!--tools:visibility="visible"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--app:viewColor="@color/white"-->
+    <!--app:viewSize="27dp"/>-->
+</RelativeLayout>

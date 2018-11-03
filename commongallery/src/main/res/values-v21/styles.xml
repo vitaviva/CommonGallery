@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="GalleryActivityTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowEnterTransition">@transition/gallery_enter</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!--<item name="android:windowReturnTransition">@transition/gallery_exit</item>-->
+    </style>
+</resources>
